@@ -1,0 +1,22 @@
+# Nmap 7.98 scan initiated Fri Feb  6 20:50:09 2026 as: /usr/lib/nmap/nmap -sn -oN /home/kali/Desktop/fyp/attack_scripts/logs/multistage/hosts.txt 172.16.0.0/24
+Nmap scan report for 172.16.0.20
+Host is up (0.0011s latency).
+MAC Address: 08:00:27:F3:3E:0C (Oracle VirtualBox virtual NIC)
+Nmap scan report for 172.16.0.30
+Host is up (0.00061s latency).
+MAC Address: 08:00:27:8C:23:79 (Oracle VirtualBox virtual NIC)
+Nmap scan report for 172.16.0.101
+Host is up (0.000025s latency).
+MAC Address: E6:7A:9F:36:87:53 (Unknown)
+Nmap scan report for 172.16.0.102
+Host is up (0.000030s latency).
+MAC Address: 42:07:39:93:81:6D (Unknown)
+Nmap scan report for 172.16.0.103
+Host is up (0.00018s latency).
+MAC Address: 46:C7:5C:8D:1E:2C (Unknown)
+Nmap scan report for 172.16.0.104
+Host is up (0.000048s latency).
+MAC Address: 86:F1:00:D9:81:2E (Unknown)
+Nmap scan report for 172.16.0.105
+Host is up.
+# Nmap done at Fri Feb  6 20:50:15 2026 -- 256 IP addresses (7 hosts up) scanned in 5.69 seconds

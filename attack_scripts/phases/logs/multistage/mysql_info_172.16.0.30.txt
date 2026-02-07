@@ -1,0 +1,17 @@
+# Nmap 7.98 scan initiated Fri Feb  6 21:02:32 2026 as: /usr/lib/nmap/nmap --script=mysql-info -p 3306 -oN /home/kali/Desktop/fyp/attack_scripts/logs/multistage/mysql_info_172.16.0.30.txt 172.16.0.30
+Nmap scan report for 172.16.0.30
+Host is up (0.0012s latency).
+
+PORT     STATE SERVICE
+3306/tcp open  mysql
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.16
+|   Thread ID: 1729232896
+|   Capabilities flags: 41516
+|   Some Capabilities: SupportsCompression, Speaks41ProtocolNew, SupportsTransactions, Support41Auth, ConnectWithDatabase, LongColumnFlag
+|   Status: Autocommit
+|_  Salt: aaaaaaaa            
+MAC Address: 08:00:27:8C:23:79 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Fri Feb  6 21:02:32 2026 -- 1 IP address (1 host up) scanned in 0.29 seconds

@@ -1,0 +1,4 @@
+# Hydra v9.6 run at 2026-02-06 16:47:32 on 172.16.0.30 ftp (hydra -l anonymous -p anonymous -t 4 -o /home/kali/Desktop/fyp/attack_scripts/logs/brute_force/ftp_anon_172.16.0.30.txt ftp://172.16.0.30)
+[21][ftp] host: 172.16.0.30   login: anonymous   password: anonymous
+# Hydra v9.6 run at 2026-02-06 20:12:35 on 172.16.0.30 ftp (hydra -l anonymous -p anonymous -t 4 -o /home/kali/Desktop/fyp/attack_scripts/logs/brute_force/ftp_anon_172.16.0.30.txt ftp://172.16.0.30)
+[21][ftp] host: 172.16.0.30   login: anonymous   password: anonymous

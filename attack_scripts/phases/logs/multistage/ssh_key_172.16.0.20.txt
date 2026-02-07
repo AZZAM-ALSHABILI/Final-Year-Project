@@ -1,0 +1,13 @@
+# Nmap 7.98 scan initiated Fri Feb  6 21:02:26 2026 as: /usr/lib/nmap/nmap --script=ssh-hostkey -p 22 -oN /home/kali/Desktop/fyp/attack_scripts/logs/multistage/ssh_key_172.16.0.20.txt 172.16.0.20
+Nmap scan report for 172.16.0.20
+Host is up (0.0015s latency).
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   2048 c3:f0:7e:9b:8a:3c:66:bf:e4:c8:27:dd:62:d6:04:7c (RSA)
+|   256 1f:cb:b7:cd:38:11:94:3d:41:5e:2d:bc:50:bb:91:6b (ECDSA)
+|_  256 cf:41:85:1a:9e:d7:66:bb:26:6d:56:98:26:3c:ed:ba (ED25519)
+MAC Address: 08:00:27:F3:3E:0C (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Fri Feb  6 21:02:27 2026 -- 1 IP address (1 host up) scanned in 0.46 seconds

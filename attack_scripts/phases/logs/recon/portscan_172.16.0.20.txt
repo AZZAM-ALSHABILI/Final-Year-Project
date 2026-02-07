@@ -1,0 +1,57 @@
+# Nmap 7.98 scan initiated Fri Feb  6 19:40:37 2026 as: /usr/lib/nmap/nmap -sV -p 21,22,23,80,445,3306 -oN /home/kali/Desktop/fyp/attack_scripts/logs/recon/portscan_172.16.0.20.txt 172.16.0.20
+Nmap scan report for 172.16.0.20
+Host is up (0.0034s latency).
+
+PORT     STATE  SERVICE      VERSION
+21/tcp   closed ftp
+22/tcp   open   ssh          OpenSSH 9.2p1 Debian 2+deb12u3 (protocol 2.0)
+23/tcp   open   telnet?
+80/tcp   closed http
+445/tcp  closed microsoft-ds
+3306/tcp closed mysql
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port23-TCP:V=7.98%I=7%D=2/6%Time=6985D33B%P=x86_64-pc-linux-gnu%r(NULL,
+SF:20E,"================================================================\r
+SF:\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20N
+SF:EXTERA\x20TECH\x20SOLUTIONS\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20Enterprise\x20Technology\x20Systems\r\n================
+SF:================================================\r\nAUTHORIZED\x20ACCES
+SF:S\x20ONLY\x20-\x20All\x20activity\x20is\x20monitored\x20and\x20logged\r
+SF:\n\r\nSystem:\x20NXTR-PROD-SSH01\.internal\.nextera\.local\r\nContact:\
+SF:x20security@nextera-tech\.local\x20\(internal\x20only\)\r\n\r\nWARNING:
+SF:\x20Unauthorized\x20access\x20is\x20prohibited\x20and\x20may\x20be\x20p
+SF:rosecuted\r\n==========================================================
+SF:======\r\nlogin:\x20")%r(GenericLines,354,"============================
+SF:====================================\r\n\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20NEXTERA\x20TECH\x20SOLUTIONS\r\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Enterprise\x20Tec
+SF:hnology\x20Systems\r\n=================================================
+SF:===============\r\nAUTHORIZED\x20ACCESS\x20ONLY\x20-\x20All\x20activity
+SF:\x20is\x20monitored\x20and\x20logged\r\n\r\nSystem:\x20NXTR-PROD-SSH01\
+SF:.internal\.nextera\.local\r\nContact:\x20security@nextera-tech\.local\x
+SF:20\(internal\x20only\)\r\n\r\nWARNING:\x20Unauthorized\x20access\x20is\
+SF:x20prohibited\x20and\x20may\x20be\x20prosecuted\r\n====================
+SF:============================================\r\nlogin:\x20\xff\xfb\x01P
+SF:assword:\x20\n\xff\xfb\x03Welcome\x20to\x20NXTR-PROD-SSH01\r\n\r\nNexte
+SF:ra\x20Tech\x20Solutions\x20-\x20Internal\x20Server\r\nLast\x20login:\x2
+SF:0Mon\x20Jan\x2027\x2008:15:23\x202026\x20from\x20192\.168\.1\.45\r\n\r\
+SF:n\*\x20Server\x20maintenance\x20window:\x20Sunday\x2002:00-04:00\x20SGT
+SF:\r\n\*\x20Report\x20issues\x20to:\x20helpdesk@nextera-tech\.local\r\n\*
+SF:\x20Production\x20environment\x20-\x20changes\x20require\x20approval\r\
+SF:n\x1b\[4h@NXTR-PROD-SSH01:~\$\x20")%r(tn3270,21D,"=====================
+SF:===========================================\r\n\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20NEXTERA\x20TECH\x20SOLUTION
+SF:S\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Enterprise
+SF:\x20Technology\x20Systems\r\n==========================================
+SF:======================\r\nAUTHORIZED\x20ACCESS\x20ONLY\x20-\x20All\x20a
+SF:ctivity\x20is\x20monitored\x20and\x20logged\r\n\r\nSystem:\x20NXTR-PROD
+SF:-SSH01\.internal\.nextera\.local\r\nContact:\x20security@nextera-tech\.
+SF:local\x20\(internal\x20only\)\r\n\r\nWARNING:\x20Unauthorized\x20access
+SF:\x20is\x20prohibited\x20and\x20may\x20be\x20prosecuted\r\n=============
+SF:===================================================\r\nlogin:\x20\xff\x
+SF:fe\x18\xff\xfe\x19\xff\xfc\x19\xff\xfe\0\xff\xfc\0");
+MAC Address: 08:00:27:F3:3E:0C (Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb  6 19:42:54 2026 -- 1 IP address (1 host up) scanned in 137.50 seconds
