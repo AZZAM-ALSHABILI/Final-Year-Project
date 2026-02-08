@@ -1,0 +1,9 @@
+# Nmap 7.98 scan initiated Fri Feb  6 19:47:39 2026 as: /usr/lib/nmap/nmap --script=smb-os-discovery -p 445 -oN /home/kali/Desktop/fyp/attack_scripts/logs/recon/smb_172.16.0.20.txt 172.16.0.20
+Nmap scan report for 172.16.0.20
+Host is up (0.0025s latency).
+
+PORT    STATE  SERVICE
+445/tcp closed microsoft-ds
+MAC Address: 08:00:27:F3:3E:0C (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Fri Feb  6 19:47:39 2026 -- 1 IP address (1 host up) scanned in 0.47 seconds

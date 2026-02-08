@@ -1,0 +1,2 @@
+# Hydra v9.6 run at 2026-02-06 16:37:18 on 172.16.0.20 telnet (hydra -L /usr/share/seclists/Usernames/top-usernames-shortlist.txt -P /tmp/telnet_pass_5.txt -t 4 -o /home/kali/Desktop/fyp/attack_scripts/logs/brute_force/telnet_172.16.0.20.txt telnet://172.16.0.20)
+# Hydra v9.6 run at 2026-02-06 20:02:22 on 172.16.0.20 telnet (hydra -L /usr/share/seclists/Usernames/top-usernames-shortlist.txt -P /tmp/telnet_pass_5.txt -t 4 -o /home/kali/Desktop/fyp/attack_scripts/logs/brute_force/telnet_172.16.0.20.txt telnet://172.16.0.20)

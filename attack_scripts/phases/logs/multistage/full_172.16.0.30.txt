@@ -1,0 +1,89 @@
+# Nmap 7.98 scan initiated Fri Feb  6 20:57:43 2026 as: /usr/lib/nmap/nmap -A -T4 -oN /home/kali/Desktop/fyp/attack_scripts/logs/multistage/full_172.16.0.30.txt 172.16.0.30
+Nmap scan report for 172.16.0.30
+Host is up (0.0015s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          vsftpd 2.0.8 or later
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| -rw-r--r--   1 0         0                     569   1 31 11:02 README.txt
+| drwxr-xr-x   2 0         0                    4096   1 31 11:02 backups
+| -rw-r--r--   1 1000      1000                  173   2 06 08:53 config.bak
+| -rw-r--r--   1 1000      1000                 2048   2 06 08:52 agent.bin
+| -rw-r--r--   1 1000      1000                  164   2 06 08:53 update.sh
+| drwxr-xr-x   2 0         0                    4096   1 31 11:02 config
+| -rw-r--r--   1 1000      1000                  236   2 06 08:53 service.py
+|_drwxr-xr-x   2 0         0                    4096   1 31 11:02 reports
+22/tcp   open  ssh          OpenSSH 8.9p1 Ubuntu 3ubuntu0.13 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 f6:ab:d2:f9:50:6e:35:7d:14:2d:28:9a:e2:e5:85:51 (ECDSA)
+|_  256 23:42:c5:f4:8a:26:d3:10:f3:04:ef:6a:5a:56:33:f6 (ED25519)
+23/tcp   open  telnet?
+42/tcp   open  tcpwrapped
+53/tcp   open  domain?
+80/tcp   open  http         nginx
+| http-robots.txt: 7 disallowed entries 
+| /admin/ /api/ /backup/ /assets/js/ /phpmyadmin/ /.git/ 
+|_/internal/
+|_http-title: NEXTERA Tech Solutions - Portal
+135/tcp  open  msrpc?
+443/tcp  open  ssl/http     nginx
+| ssl-cert: Subject: commonName=Nepenthes Development Team/organizationName=dionaea.carnivore.it/countryName=DE
+| Not valid before: 2026-02-06T08:07:01
+|_Not valid after:  2027-02-06T08:07:01
+|_ssl-date: TLS randomness does not represent time
+| http-robots.txt: 7 disallowed entries 
+| /admin/ /api/ /backup/ /assets/js/ /phpmyadmin/ /.git/ 
+|_/internal/
+|_http-title: NEXTERA Tech Solutions - Portal
+445/tcp  open  microsoft-ds Windows Server 2019 Standard 10.0.17763 microsoft-ds
+| fingerprint-strings: 
+|   SMBProgNeg: 
+|_    SMBr
+1433/tcp open  ms-sql-s     Microsoft SQL Server 2000 8.00.528.00; SP1+
+| ms-sql-info: 
+|   172.16.0.30:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2000 SP1+
+|       number: 8.00.528.00
+|       Product: Microsoft SQL Server 2000
+|       Service pack level: SP1
+|       Post-SP patches applied: true
+|_    TCP port: 1433
+1723/tcp open  pptp          (Firmware: 1)
+3306/tcp open  mysql        MySQL 5.7.16
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.16
+|   Thread ID: 1729232896
+|   Capabilities flags: 41516
+|   Some Capabilities: Support41Auth, SupportsTransactions, LongColumnFlag, Speaks41ProtocolNew, SupportsCompression, ConnectWithDatabase
+|   Status: Autocommit
+|_  Salt: aaaaaaaa            
+MAC Address: 08:00:27:8C:23:79 (Oracle VirtualBox virtual NIC)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19, OpenWrt 21.02 (Linux 5.4)
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_smb2-time: Protocol negotiation failed (SMB2)
+|_clock-skew: mean: -5h23m26s, deviation: 42m24s, median: -5h53m25s
+| smb-os-discovery: 
+|   OS: Windows Server 2019 Standard 10.0.17763 (Windows Server 2019 Standard 10.0)
+|   NetBIOS computer name: NXTR-FILE01\x00
+|   Workgroup: NEXTERA\x00
+|_  System time: 2026-02-06T09:07:01+01:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.51 ms 172.16.0.30
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Feb  6 21:02:26 2026 -- 1 IP address (1 host up) scanned in 283.32 seconds

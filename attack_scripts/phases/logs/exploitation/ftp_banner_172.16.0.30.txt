@@ -1,0 +1,2 @@
+220 NXTR-FTP01.internal.nextera.local FTP Server Ready - Authorized Users Only
+530 Please login with USER and PASS.

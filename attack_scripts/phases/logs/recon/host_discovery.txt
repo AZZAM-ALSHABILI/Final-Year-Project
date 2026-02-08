@@ -1,0 +1,9 @@
+# Nmap 7.98 scan initiated Fri Feb  6 19:40:35 2026 as: /usr/lib/nmap/nmap -sn -oG /home/kali/Desktop/fyp/attack_scripts/logs/recon/host_discovery.txt 172.16.0.0/24
+Host: 172.16.0.20 ()	Status: Up
+Host: 172.16.0.30 ()	Status: Up
+Host: 172.16.0.102 ()	Status: Up
+Host: 172.16.0.103 ()	Status: Up
+Host: 172.16.0.104 ()	Status: Up
+Host: 172.16.0.105 ()	Status: Up
+Host: 172.16.0.101 ()	Status: Up
+# Nmap done at Fri Feb  6 19:40:36 2026 -- 256 IP addresses (7 hosts up) scanned in 1.94 seconds

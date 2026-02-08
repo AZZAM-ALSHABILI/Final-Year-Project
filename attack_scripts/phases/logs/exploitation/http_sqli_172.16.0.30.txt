@@ -1,0 +1,2 @@
+<!DOCTYPE html><html><head><title>API - Unauthorized</title><style>body{font-family:monospace;background:#1a1a2e;color:#0f0;padding:20px}</style></head><body><pre>{"error":"unauthorized","message":"Valid API key required","code":401,"hint":"Include X-API-Key header"}</pre></body></html>
+<!DOCTYPE html><html><head><title>API - Unauthorized</title><style>body{font-family:monospace;background:#1a1a2e;color:#0f0;padding:20px}</style></head><body><pre>{"error":"unauthorized","message":"Valid API key required","code":401,"hint":"Include X-API-Key header"}</pre></body></html>

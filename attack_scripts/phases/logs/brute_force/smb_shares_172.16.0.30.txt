@@ -1,0 +1,24 @@
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
+  .                                   D        0  Fri May 26 17:18:27 2017
+  ⸮                                 D        0  Fri May 26 10:59:01 2017
+Error in dskattr: NT_STATUS_INVALID_NETWORK_RESPONSE
