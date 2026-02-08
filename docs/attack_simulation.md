@@ -1,4 +1,4 @@
-# Phase 3: Attack Simulation
+# Attack Simulation
 
 This document describes the process for executing simulated attacks against the honeypots to generate realistic log data. All commands are run on the Kali VM.
 
@@ -136,3 +136,4 @@ sqlite3 /opt/dionaea/var/lib/dionaea/dionaea.sqlite "SELECT COUNT(*) FROM connec
 - Scripts are designed to generate varied attack patterns for analysis
 - Attack intensity is controlled to avoid overloading honeypots
 - Full source code available in project GitHub repository (see Appendix)
+
