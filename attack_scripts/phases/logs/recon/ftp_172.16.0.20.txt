@@ -1,9 +1,0 @@
-# Nmap 7.98 scan initiated Fri Feb  6 19:47:39 2026 as: /usr/lib/nmap/nmap --script=ftp-anon -p 21 -oN /home/kali/Desktop/fyp/attack_scripts/logs/recon/ftp_172.16.0.20.txt 172.16.0.20
-Nmap scan report for 172.16.0.20
-Host is up (0.0025s latency).
-
-PORT   STATE  SERVICE
-21/tcp closed ftp
-MAC Address: 08:00:27:F3:3E:0C (Oracle VirtualBox virtual NIC)
-
-# Nmap done at Fri Feb  6 19:47:40 2026 -- 1 IP address (1 host up) scanned in 0.43 seconds

@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /admin/
-Disallow: /api/
-Disallow: /backup/
-Disallow: /assets/js/
-Disallow: /phpmyadmin/
-Disallow: /.git/
-Disallow: /internal/
